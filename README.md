@@ -4,7 +4,7 @@
 
 Diagram : 1a
 
-This project's goal is to deploy a WordPress website in a Three Tier Architecture. Only front-end-server has http access from the Internet. Back-end is installed with mariadb server and only front-end server can access back-end through its private hosted zone. a Bastion server is used to provide ssh access to front-end and backend-servers. 
+This project's goal is to deploy a WordPress website in a Three Tier Architecture. Only front-end server has http access from the Internet. The back-end is installed with MariaDB server and only the front-end server can access the back-end through its private hosted zone. a Bastion server is used to provide ssh access to front-end and back-end servers.
 
 
 ### **Terraform File Hierarchy used in this project.**
